@@ -31,3 +31,16 @@ The main goal is to expand our ability to build stuf in Java using modern practi
 ### Notes from our 1/24/2021 live discussion
 - Java Compiler, JVM, and basics of the Classloader and Packages
 - Building and running 'hello world' without a package and inside a package - Related Article: [Introduction to Default Package in Java](https://www.educba.com/default-package-in-java/)
+### Notes from 1/31/21 live discussion
+* type casting 
+  * The example below calculates the slope using int math, then casts it to a double
+  * When doing math, it's a good idea to avoid `int`s
+
+```java
+  int x1 = scanner.nextInt();
+  int y1 = scanner.nextInt();
+  int x2 = scanner.nextInt();
+  int y2 = scanner.nextInt();
+
+   double slope = Math.abs(y1 - y2) / Math.abs(x1 - x2);
+```
